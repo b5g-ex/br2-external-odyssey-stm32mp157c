@@ -1,2 +1,3 @@
-uname_r=5.5.19-armv7-lpae-x27
-dtb=stm32mp157c-seeed-npi.dtb
+uname_r=5.10.83-armv7-lpae-x58
+dtb=stm32mp157c-odyssey.dtb
+cmdline=debug
