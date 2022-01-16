@@ -22,4 +22,4 @@ $ sudo fwup output/images/odyssey_stm32mp157c.fw
 ## TODO 
 
 - [ ] prepare u-boot by br
-- [ ] prepare dtb by br
+- [x] prepare dtb by br
