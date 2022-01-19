@@ -23,3 +23,14 @@ $ sudo fwup output/images/odyssey_stm32mp157c.fw
 
 - [x] prepare u-boot by br
 - [x] prepare dtb by br
+
+
+## About WiFi Firmware
+
+- https://forum.seeedstudio.com/t/odyssey-stm32mp157c-wi-fi-firmware/254372
+- https://github.com/Seeed-Studio/seeed-linux-deb/blob/master/pool/main/a/ap6xxx-firmware/ap6xxx-firmware_0.0.1-1_armhf.deb
+
+```
+# list contents
+$ dpkg-dev --contents ap6xxx-firmware_0.0.1-1_armhf.deb
+```

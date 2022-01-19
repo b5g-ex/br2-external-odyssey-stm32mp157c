@@ -1,3 +1,6 @@
 uname_r=5.10.83-armv7-lpae-x58
 dtb=stm32mp157c-odyssey.dtb
 cmdline=debug
+
+enable_uboot_overlays=1
+# uboot_overlay_addr0=/boot/stm32mp1-seeed-ap6236-overlay.dtb
