@@ -54,7 +54,7 @@ update_kernel_patch() {
 
   # Make a git repo and apply the "git" style patch
   echo "Creating temporary git repo to extract RCN patch..."
-  cd b
+  cd b # at work/b
   git init
   git config user.email you@example.com
   git config user.name "Your Name"
@@ -65,9 +65,14 @@ update_kernel_patch() {
   rm -fr .git
 
   # Now create a regular "diff" patch
-  echo "Creating patch..."
-  cd ..
+  echo "Creating RCN patch..."
+  cd .. # at work
   diff -Naur --no-dereference a b > ../$OUTPUT_PATCH || :
+
+  echo "Creating stm32mp157c-seeed-npi-dts patch..."
+  cp -r b c
+  cp -r ../dts c/arch/arm/boot/
+  diff -Naur --no-dereference b c > ../0002-stm32mp157c-seeed-npi-dts.patch || :
 
   # Clean up
   echo "Cleaning up..."
