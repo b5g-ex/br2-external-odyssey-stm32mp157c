@@ -1,6 +1,6 @@
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-MCP2517FD-can0-overlay.dts c/arch/arm/boot/dts/stm32mp1-MCP2517FD-can0-overlay.dts
 --- b/arch/arm/boot/dts/stm32mp1-MCP2517FD-can0-overlay.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp1-MCP2517FD-can0-overlay.dts	2022-01-21 07:44:03.984918903 +0900
++++ c/arch/arm/boot/dts/stm32mp1-MCP2517FD-can0-overlay.dts	2022-01-21 12:12:49.500367461 +0900
 @@ -0,0 +1,82 @@
 +
 +/*
@@ -86,7 +86,7 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-MCP2517FD-can0-overlay.
 +
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-ap6236-overlay.dts c/arch/arm/boot/dts/stm32mp1-seeed-ap6236-overlay.dts
 --- b/arch/arm/boot/dts/stm32mp1-seeed-ap6236-overlay.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp1-seeed-ap6236-overlay.dts	2022-01-21 07:44:03.984918903 +0900
++++ c/arch/arm/boot/dts/stm32mp1-seeed-ap6236-overlay.dts	2022-01-21 12:12:49.500367461 +0900
 @@ -0,0 +1,216 @@
 +/*
 + * Device tree overlay for ap6236
@@ -306,7 +306,7 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-ap6236-overlay.dt
 +
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-i2c4-overlay.dts c/arch/arm/boot/dts/stm32mp1-seeed-i2c4-overlay.dts
 --- b/arch/arm/boot/dts/stm32mp1-seeed-i2c4-overlay.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp1-seeed-i2c4-overlay.dts	2022-01-21 07:44:03.984918903 +0900
++++ c/arch/arm/boot/dts/stm32mp1-seeed-i2c4-overlay.dts	2022-01-21 12:12:49.500367461 +0900
 @@ -0,0 +1,50 @@
 +
 +/*
@@ -360,7 +360,7 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-i2c4-overlay.dts 
 +
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-lcd-01-overlay.dts c/arch/arm/boot/dts/stm32mp1-seeed-lcd-01-overlay.dts
 --- b/arch/arm/boot/dts/stm32mp1-seeed-lcd-01-overlay.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp1-seeed-lcd-01-overlay.dts	2022-01-21 07:44:03.988918890 +0900
++++ c/arch/arm/boot/dts/stm32mp1-seeed-lcd-01-overlay.dts	2022-01-21 12:12:49.500367461 +0900
 @@ -0,0 +1,64 @@
 +#include "dt-bindings/gpio/gpio.h"
 +
@@ -429,7 +429,7 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-lcd-01-overlay.dt
 \ ファイル末尾に改行がありません
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-pwm-overlay.dts c/arch/arm/boot/dts/stm32mp1-seeed-pwm-overlay.dts
 --- b/arch/arm/boot/dts/stm32mp1-seeed-pwm-overlay.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp1-seeed-pwm-overlay.dts	2022-01-21 07:44:03.988918890 +0900
++++ c/arch/arm/boot/dts/stm32mp1-seeed-pwm-overlay.dts	2022-01-21 12:12:49.500367461 +0900
 @@ -0,0 +1,48 @@
 +/*
 + * Device tree overlay for pwm
@@ -481,7 +481,7 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-pwm-overlay.dts c
 +};
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-spi5-overlay.dts c/arch/arm/boot/dts/stm32mp1-seeed-spi5-overlay.dts
 --- b/arch/arm/boot/dts/stm32mp1-seeed-spi5-overlay.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp1-seeed-spi5-overlay.dts	2022-01-21 07:44:03.988918890 +0900
++++ c/arch/arm/boot/dts/stm32mp1-seeed-spi5-overlay.dts	2022-01-21 12:12:49.500367461 +0900
 @@ -0,0 +1,70 @@
 +
 +/*
@@ -555,7 +555,7 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-spi5-overlay.dts 
 +
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-uart7-overlay.dts c/arch/arm/boot/dts/stm32mp1-seeed-uart7-overlay.dts
 --- b/arch/arm/boot/dts/stm32mp1-seeed-uart7-overlay.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp1-seeed-uart7-overlay.dts	2022-01-21 07:44:03.988918890 +0900
++++ c/arch/arm/boot/dts/stm32mp1-seeed-uart7-overlay.dts	2022-01-21 12:12:49.500367461 +0900
 @@ -0,0 +1,62 @@
 +/*
 +
@@ -621,7 +621,7 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-uart7-overlay.dts
 +};
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-usart2-overlay.dts c/arch/arm/boot/dts/stm32mp1-seeed-usart2-overlay.dts
 --- b/arch/arm/boot/dts/stm32mp1-seeed-usart2-overlay.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp1-seeed-usart2-overlay.dts	2022-01-21 07:44:03.988918890 +0900
++++ c/arch/arm/boot/dts/stm32mp1-seeed-usart2-overlay.dts	2022-01-21 12:12:49.500367461 +0900
 @@ -0,0 +1,68 @@
 +
 +/*
@@ -693,8 +693,8 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp1-seeed-usart2-overlay.dt
 +
 diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp157c-seeed-npi.dts c/arch/arm/boot/dts/stm32mp157c-seeed-npi.dts
 --- b/arch/arm/boot/dts/stm32mp157c-seeed-npi.dts	1970-01-01 09:00:00.000000000 +0900
-+++ c/arch/arm/boot/dts/stm32mp157c-seeed-npi.dts	2022-01-21 07:44:03.988918890 +0900
-@@ -0,0 +1,277 @@
++++ c/arch/arm/boot/dts/stm32mp157c-seeed-npi.dts	2022-01-21 12:12:49.500367461 +0900
+@@ -0,0 +1,102 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause)
 +/*
 + * Copyright (C) STMicroelectronics 2019 - All Rights Reserved
@@ -703,13 +703,7 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp157c-seeed-npi.dts c/arch
 +
 +/dts-v1/;
 +
-+#include "stm32mp157.dtsi"
-+#include "stm32mp15xc.dtsi"
-+#include "stm32mp15-pinctrl.dtsi"
-+#include "stm32mp15xxac-pinctrl.dtsi"
-+#include <dt-bindings/gpio/gpio.h>
-+#include <dt-bindings/rtc/rtc-stm32.h>
-+#include <dt-bindings/mfd/st,stpmic1.h>
++#include "stm32mp157c-odyssey-som.dtsi"
 +
 +/ {
 +	model = "Seeed NPi STM32MP157C Board";
@@ -733,163 +727,6 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp157c-seeed-npi.dts c/arch
 +	};
 +};
 +
-+&i2c2 {
-+	pinctrl-names = "default", "sleep";
-+	pinctrl-0 = <&i2c2_pins_a>;
-+	pinctrl-1 = <&i2c2_sleep_pins_a>;
-+	i2c-scl-rising-time-ns = <185>;
-+	i2c-scl-falling-time-ns = <20>;
-+	clock-frequency = <400000>;
-+	status = "okay";
-+	/delete-property/dmas;
-+	/delete-property/dma-names;
-+
-+	pmic: stpmic@33 {
-+		compatible = "st,stpmic1";
-+		reg = <0x33>;
-+		interrupts-extended = <&gpioa 0 IRQ_TYPE_EDGE_FALLING>;
-+		interrupt-controller;
-+		#interrupt-cells = <2>;
-+		status = "okay";
-+
-+		st,main-control-register = <0x04>;
-+		st,vin-control-register = <0xc0>;
-+		st,usb-control-register = <0x20>;
-+
-+		regulators {
-+			compatible = "st,stpmic1-regulators";
-+			ldo1-supply = <&v3v3>;
-+			ldo3-supply = <&vdd_ddr>;
-+			ldo6-supply = <&v3v3>;
-+			pwr_sw1-supply = <&bst_out>;
-+			pwr_sw2-supply = <&bst_out>;
-+
-+			vddcore: buck1 {
-+				regulator-name = "vddcore";
-+				regulator-min-microvolt = <1200000>;
-+				regulator-max-microvolt = <1350000>;
-+				regulator-always-on;
-+				regulator-initial-mode = <0>;
-+				regulator-over-current-protection;
-+			};
-+
-+			vdd_ddr: buck2 {
-+				regulator-name = "vdd_ddr";
-+				regulator-min-microvolt = <1350000>;
-+				regulator-max-microvolt = <1350000>;
-+				regulator-always-on;
-+				regulator-initial-mode = <0>;
-+				regulator-over-current-protection;
-+			};
-+
-+			vdd: buck3 {
-+				regulator-name = "vdd";
-+				regulator-min-microvolt = <3300000>;
-+				regulator-max-microvolt = <3300000>;
-+				regulator-always-on;
-+				st,mask-reset;
-+				regulator-initial-mode = <0>;
-+				regulator-over-current-protection;
-+			};
-+
-+			v3v3: buck4 {
-+				regulator-name = "v3v3";
-+				regulator-min-microvolt = <3300000>;
-+				regulator-max-microvolt = <3300000>;
-+				regulator-always-on;
-+				regulator-over-current-protection;
-+				regulator-initial-mode = <0>;
-+			};
-+
-+			v1v8_audio: ldo1 {
-+				regulator-name = "v1v8_audio";
-+				regulator-min-microvolt = <1800000>;
-+				regulator-max-microvolt = <1800000>;
-+				regulator-always-on;
-+				interrupts = <IT_CURLIM_LDO1 0>;
-+			};
-+
-+			v3v3_hdmi: ldo2 {
-+				regulator-name = "v3v3_hdmi";
-+				regulator-min-microvolt = <3300000>;
-+				regulator-max-microvolt = <3300000>;
-+				regulator-always-on;
-+				interrupts = <IT_CURLIM_LDO2 0>;
-+
-+			};
-+
-+			vtt_ddr: ldo3 {
-+				regulator-name = "vtt_ddr";
-+				regulator-min-microvolt = <500000>;
-+				regulator-max-microvolt = <750000>;
-+				regulator-always-on;
-+				regulator-over-current-protection;
-+			};
-+
-+			vdd_usb: ldo4 {
-+				regulator-name = "vdd_usb";
-+				regulator-min-microvolt = <3300000>;
-+				regulator-max-microvolt = <3300000>;
-+				interrupts = <IT_CURLIM_LDO4 0>;
-+			};
-+
-+			vdda: ldo5 {
-+				regulator-name = "vdda";
-+				regulator-min-microvolt = <2900000>;
-+				regulator-max-microvolt = <2900000>;
-+				interrupts = <IT_CURLIM_LDO5 0>;
-+				regulator-boot-on;
-+			};
-+
-+			v1v2_hdmi: ldo6 {
-+				regulator-name = "v1v2_hdmi";
-+				regulator-min-microvolt = <1200000>;
-+				regulator-max-microvolt = <1200000>;
-+				regulator-always-on;
-+				interrupts = <IT_CURLIM_LDO6 0>;
-+
-+			};
-+
-+			vref_ddr: vref_ddr {
-+				regulator-name = "vref_ddr";
-+				regulator-always-on;
-+				regulator-over-current-protection;
-+			};
-+
-+			bst_out: boost {
-+				regulator-name = "bst_out";
-+				interrupts = <IT_OCP_BOOST 0>;
-+			};
-+
-+			vbus_otg: pwr_sw1 {
-+				regulator-name = "vbus_otg";
-+				interrupts = <IT_OCP_OTG 0>;
-+				regulator-active-discharge;
-+			};
-+
-+			vbus_sw: pwr_sw2 {
-+				regulator-name = "vbus_sw";
-+				interrupts = <IT_OCP_SWOUT 0>;
-+				regulator-active-discharge;
-+			};
-+		};
-+
-+		onkey {
-+			compatible = "st,stpmic1-onkey";
-+			interrupts = <IT_PONKEY_F 0>, <IT_PONKEY_R 1>;
-+			interrupt-names = "onkey-falling", "onkey-rising";
-+			power-off-time-sec = <5>;
-+			st,onkey-clear-cc-flag;
-+			status = "okay";
-+		};
-+
-+		watchdog {
-+			compatible = "st,stpmic1-wdt";
-+			status = "disabled";
-+		};
-+	};
-+};
-+
 +&uart4 {
 +	pinctrl-names = "default", "sleep", "idle", "no_console_suspend";
 +	pinctrl-0 = <&uart4_pins_a>;
@@ -904,22 +741,10 @@ diff -Naur --no-dereference b/arch/arm/boot/dts/stm32mp157c-seeed-npi.dts c/arch
 +	pinctrl-0 = <&sdmmc1_b4_pins_a>;
 +	pinctrl-1 = <&sdmmc1_b4_od_pins_a>;
 +	pinctrl-2 = <&sdmmc1_b4_sleep_pins_a>;
-+	broken-cd;
++	cd-gpios = <&gpioi 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
++	disable-wp;
 +	st,neg-edge;
 +	bus-width = <4>;
-+	vmmc-supply = <&v3v3>;
-+	status = "okay";
-+};
-+
-+&sdmmc2 {
-+	pinctrl-names = "default", "opendrain", "sleep";
-+	pinctrl-0 = <&sdmmc2_b4_pins_a &sdmmc2_d47_pins_d>;
-+	pinctrl-1 = <&sdmmc2_b4_od_pins_a &sdmmc2_d47_pins_d>;
-+	pinctrl-2 = <&sdmmc2_b4_sleep_pins_a &sdmmc2_d47_sleep_pins_d>;
-+	non-removable;
-+	broken-cd;
-+	st,neg-edge;
-+	bus-width = <8>;
 +	vmmc-supply = <&v3v3>;
 +	status = "okay";
 +};
