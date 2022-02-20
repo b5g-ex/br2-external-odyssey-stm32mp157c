@@ -11,6 +11,10 @@ $ cd buildroot
 $ git checkout 2021.11
 $ make BR2_EXTERNAL=path/to/this/dir odyssey_stm32mp157c_defconfig
 $ make
+# after build, you can find fw image, output/images/odyssey_stm32mp157c.fw
+
+# if you want to configure odyssey_stm32mp157c_defconfig, invoke below command
+$ make menuconfig
 ```
 
 ### burn fw to SD
