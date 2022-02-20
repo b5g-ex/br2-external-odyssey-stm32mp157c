@@ -40,7 +40,9 @@ $ dpkg-dev --contents ap6xxx-firmware_0.0.1-1_armhf.deb
 
 ## About I2C
 
-confirm i2c with RPI HAT, with Grove aht20 whose address is 0x38
+confirm i2c with RPI HAT whose address is 0x04,
+
+with Grove aht20 whose address is 0x38
 
 ```
 # i2cdetect -l
